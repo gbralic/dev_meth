@@ -46,7 +46,7 @@ $db = new SQLite3('doctordb.sqlite');
   </table>
 
 
-  <form action="Task.php">
+  <form action="index.php">
     <input type="submit" value="Complete another survey" />
   </form>
   <form action="id3alg.php">
