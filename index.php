@@ -210,7 +210,7 @@ if ($rep=="" or $rep1=="" or $rep2=="" or $rep3=="" or $rep4=="" or $rep5=="" or
     $stmt->bindValue(10, $rep9);
     $stmt->bindValue(11, $rep10);
     $result = $stmt->execute();
-    header("Location: http://localhost:8000/afterform.php");
+    header("Location: afterform.php");
 
   }else{
     echo "<p><span class='error'> Some informations are incorrect ! </span></p>";
